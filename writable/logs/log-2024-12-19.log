@@ -1,0 +1,136 @@
+CRITICAL - 2024-12-19 13:55:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 404
+[Method: GET, Route: guests/delete/3]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('DELETE', 'http://localhost/clarika/public/api/guests/3')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(195): CodeIgniter\HTTP\CURLRequest->request('DELETE', 'http://localhost/clarika/public/api/guests/3', [])
+ 5 APPPATH\Controllers\Guests.php(78): CodeIgniter\HTTP\CURLRequest->delete('http://localhost/clarika/public/api/guests/3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->delete('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 13:58:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 404
+[Method: GET, Route: guests/delete/3]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('DELETE', 'http://localhost/clarika/public/api/guests/3')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(195): CodeIgniter\HTTP\CURLRequest->request('DELETE', 'http://localhost/clarika/public/api/guests/3', [])
+ 5 APPPATH\Controllers\Guests.php(78): CodeIgniter\HTTP\CURLRequest->delete('http://localhost/clarika/public/api/guests/3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->delete('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:10:24 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: guests/update/5]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://localhost/clarika/public/api/guests/5')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(235): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://localhost/clarika/public/api/guests/5', [...])
+ 5 APPPATH\Controllers\Guests.php(63): CodeIgniter\HTTP\CURLRequest->put('http://localhost/clarika/public/api/guests/5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:10:58 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: guests/update/5]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://localhost/clarika/public/api/guests/5')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(235): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://localhost/clarika/public/api/guests/5', [...])
+ 5 APPPATH\Controllers\Guests.php(63): CodeIgniter\HTTP\CURLRequest->put('http://localhost/clarika/public/api/guests/5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:14:03 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: guests/update/5]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://localhost/clarika/public/api/guests/5')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(235): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://localhost/clarika/public/api/guests/5', [...])
+ 5 APPPATH\Controllers\Guests.php(63): CodeIgniter\HTTP\CURLRequest->put('http://localhost/clarika/public/api/guests/5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:14:12 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: guests/update/5]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://localhost/clarika/public/api/guests/5')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(235): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://localhost/clarika/public/api/guests/5', [...])
+ 5 APPPATH\Controllers\Guests.php(63): CodeIgniter\HTTP\CURLRequest->put('http://localhost/clarika/public/api/guests/5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:18:01 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: guests/update/5]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://localhost/clarika/public/api/guests/5')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(235): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://localhost/clarika/public/api/guests/5', [...])
+ 5 APPPATH\Controllers\Guests.php(63): CodeIgniter\HTTP\CURLRequest->put('http://localhost/clarika/public/api/guests/5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:18:05 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: guests/update/5]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://localhost/clarika/public/api/guests/5')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(235): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://localhost/clarika/public/api/guests/5', [...])
+ 5 APPPATH\Controllers\Guests.php(63): CodeIgniter\HTTP\CURLRequest->put('http://localhost/clarika/public/api/guests/5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:19:02 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: guests/update/8]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 694.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('PUT', 'http://localhost/clarika/public/api/guests/8')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(235): CodeIgniter\HTTP\CURLRequest->request('PUT', 'http://localhost/clarika/public/api/guests/8', [...])
+ 5 APPPATH\Controllers\Guests.php(63): CodeIgniter\HTTP\CURLRequest->put('http://localhost/clarika/public/api/guests/8', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-19 14:40:34 --> ErrorException: Undefined variable $response
+[Method: POST, Route: guests/update/7]
+in APPPATH\Controllers\Guests.php on line 74.
+ 1 APPPATH\Controllers\Guests.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\clarika\\app\\Controllers\\Guests.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guests->update('7')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
